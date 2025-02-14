@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+}
+
+:root {
+    --night: #121118;
+    --seasalt: #FAFAFA;
+    --ash-gray: #9AB9B3;
+    --green: #357266;
+    --blush: #E6507C;
+  }
+
+body { 
+    background-color: #9AB9B3;
+    font-size: 16px;
+    padding: 0 5em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    letter-spacing: 0.150rem;
+    text-transform: uppercase;
+    color: #1c1f21;
+    font-weight: 600;
+    text-align: center;
+}
+
+div {
+    background-color: #357266;
+    margin: 5rem;
+    padding: 2.5rem 3.5rem; 
+    border-radius: 20px;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-bottom: 2.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+input[type=text] {
+    background-color: #9AB9B3;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 1.1rem;
+    width: 300px;
+    margin-right: 1rem;
+    padding: 0.5rem;
+  }
+
+#check-btn {
+    background-color: #F2A6BD;
+    border: none;
+    display: inline-block;
+    padding: 0.75rem 1.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+#check-btn:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #E6507C;
+}
+
+#result {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+}

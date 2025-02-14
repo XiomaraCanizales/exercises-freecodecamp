@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+:root {
+    --night: #121118;
+    --seasalt: #FAFAFA;
+    --ash-gray: #9AB9B3;
+    --green: #357266;
+    --blush: #E6507C;
+}
+
+body {
+    background-color: var(--ash-gray);
+    font-family: "SUSE", sans-serif;
+    font-size: 18px;
+    color: var(--night);
+}
+
+h1 { text-align: center; }
+
+.container {
+    width: 90%;
+    max-width: 680px;
+}
+
+h1,
+.container,
+.output {
+    margin: 20px auto;
+}
+
+label,
+legend {
+    font-weight: bold;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: var(--green);
+    border: none;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+button,
+input,
+select {
+    min-height: 24px;
+    color: var(--night);
+}
+
+fieldset,
+label,
+button,
+input,
+select {
+    margin-bottom: 10px;
+}
+
+output {
+    border: 2px solid var(--seasalt);
+    padding: 10px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.output span {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.surplus { color: var(--blush); }
+
+.deficit { color: var(--green); }

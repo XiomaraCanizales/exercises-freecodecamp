@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+:root {
+    --night: #121118;
+    --seasalt: #FAFAFA;
+    --ash-gray: #9AB9B3;
+    --green: #357266;
+    --blush: #E6507C;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--blush);
+  font-family: "SUSE", sans-serif;
+  font-size: 18px;
+  color: var(--seasalt);
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  margin: 20px 0;
+}
+
+.input-container {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.convert-btn {
+  background-color: var(--green);
+  cursor: pointer;
+  border: var(--green) 2px solid;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  border-radius: 10px;
+  color: var(--seasalt);
+}
+
+.convert-btn:hover {
+  border: var(--green) 2px solid;
+  background-color: var(--blush);
+}
+
+.number-input {
+  height: 25px;
+}
+
+#result {
+  margin: 10px 0;
+  min-width: 200px;
+  width: fit-content;
+  min-height: 80px;
+  word-break: break-word;
+  padding: 15px;
+  border: 3px solid var(--green);
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+  .input-container {
+    flex-direction: row;
+  }
+
+  #result {
+    max-width: 460px;
+  }
+}

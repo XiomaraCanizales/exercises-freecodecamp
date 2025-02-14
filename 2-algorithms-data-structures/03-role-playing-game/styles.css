@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+:root {
+    --night: #121118;
+    --seasalt: #FAFAFA;
+    --ash-gray: #9AB9B3;
+    --green: #357266;
+    --blush: #E6507C;
+}
+
+body {
+    background-color: var(--ash-gray);
+    font-family: "SUSE", sans-serif;
+    font-size: 18px;
+}
+
+#text {
+    background-color: var(--night);
+    color: var(--seasalt);
+    padding: 10px;
+}
+
+#game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: var(--seasalt);
+    color: var(--seasalt);
+    margin: 30px auto;
+    padding: 10px;
+}
+
+#controls, #stats {
+    border: 1px solid var(--night);
+    padding: 5px;
+    color: var(--night);
+}
+
+#monsterStats {
+    display: none;
+    border: 1px solid var(--night);
+    padding: 5px;
+    color: var(--seasalt);
+    background-color: var(--blush);
+}
+
+.stat {
+    padding-right: 10px;
+}
+
+button {
+    cursor: pointer;
+    color: var(--night);
+    background-color: var(--green);
+    border: none;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
