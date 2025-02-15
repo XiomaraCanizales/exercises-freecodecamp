@@ -10,14 +10,14 @@ const checkUserInput = () => {
         isNaN(inputInt) ||
         inputInt < 1
     ) {
-        result.textContent = "Please enter a number greater than or equal to 1"
-        setTimeout(() => deleteInput(), 800)
+        result.textContent = "Enter a number greater than or equal to 1"
+        setTimeout(() => deleteInput(), 2000)
         return
     }
 
     if (inputInt >= 4000) {
-        result.textContent = "Please enter a number less than or equal to 3999"
-        setTimeout(() => deleteInput(), 800)
+        result.textContent = "Enter a number less than or equal to 3999"
+        setTimeout(() => deleteInput(), 2000)
         return
     }
 
