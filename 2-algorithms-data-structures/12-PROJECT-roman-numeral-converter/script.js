@@ -6,7 +6,7 @@ const result = document.getElementById("output")
 const checkUserInput = () => {
     const inputInt = numberInput.value
 
-    if (!inputInt) {
+    if (!inputInt || isNaN(inputInt)) {
         result.textContent = "Please enter a valid number"
         return
     }
