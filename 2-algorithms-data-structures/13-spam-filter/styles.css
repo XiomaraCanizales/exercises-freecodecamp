@@ -1,24 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+:root {
+    --night: #121118;
+    --seasalt: #FAFAFA;
+    --ash-gray: #9AB9B3;
+    --green: #357266;
+    --blush: #E6507C;
+}
+
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-:root {
-  --dark-grey: #1b1b32;
-  --light-grey: #f5f6f7;
-  --golden-yellow: #fecc4c;
-  --yellow: #ffcc4c;
-  --gold: #feac32;
-  --orange: #ffac33;
-  --dark-orange: #f89808;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: var(--dark-grey);
-  color: var(--light-grey);
+  background-color: var(--ash-gray);
+  font-family: "SUSE", sans-serif;
+  font-size: 18px;
+  color: var(--night);
 }
 
 body,
@@ -52,6 +54,7 @@ textarea {
 #message-input:placeholder-shown,
 textarea {
   font-size: 1.1rem;
+  padding: 0.8rem;
 }
 
 .btn {
@@ -59,15 +62,16 @@ textarea {
   cursor: pointer;
   width: 200px;
   margin: 10px auto;
-  color: var(--dark-grey);
-  background-color: var(--gold);
-  background-image: linear-gradient(var(--golden-yellow), var(--orange));
-  border-color: var(--gold);
+  color: var(--night);
+  background-color: var(--blush);
+  border-color: var(--blush);
   border-width: 3px;
+  padding: 0.8rem;
+  font-size: 1rem;
 }
 
 .btn:hover {
-  background-image: linear-gradient(var(--yellow), var(--dark-orange));
+  background-color: var(--seasalt);
 }
 
 #result {
