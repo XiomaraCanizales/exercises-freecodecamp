@@ -30,10 +30,3 @@ Courses and projects from freecodecamp certifications
 17. Build a Plarformer Game
 18. Build an fCC Authros Page
 19. Build an fCC Forum Leaderboard
-
-### Projects
-1. Build a Palindrome Checker ✓
-2. Build a Roman Numeral Converter   ⃪
-3. Build a Telephone Number Validator Project
-4. Build a Cash Register
-5. Build a Pokemon Search App
